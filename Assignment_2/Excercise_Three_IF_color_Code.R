@@ -2,15 +2,15 @@
 #new attempt SUCCESSFUL
 enter.number <- as.integer(readline(prompt="Enter a number: "))
 #must enter before continuing to if statement
-if(enter.number < 10) {
-  print("blue")
+if(enter.number < 0) {
+  print("that is not a correct color option")
+} else if(enter.number < 10) {
+    print("blue")
 } else if(enter.number < 20) {
   print("red")
 } else if(enter.number < 30) {
   print("green")
-} else if(enter.number < 0) {
-  print("that is not a correct color option")
-} else
+} else 
   print("that is not a correct color option")
 #END successful Attempt
 
